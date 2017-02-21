@@ -1,0 +1,364 @@
+/*UNIVERSAL STYLING*/
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sansita', sans-serif;
+  color: #333333;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*HEADER SECTION*/
+
+header {
+  background: #333333;
+  height: 125px;
+}
+
+h1 {
+  color: #E8DDB5;
+  font-family: 'Sansita', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 12px;
+}
+
+li img {
+  margin-right: 6px;
+}
+
+#header-left {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  color: #95B8D1;
+  left: 20px;
+}
+
+#personal-videos,
+#shares,
+#headphones {
+  vertical-align: middle;
+}
+
+#headphones {
+  width: 25px;
+}
+
+#header-right {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+
+#user-info {
+  display: flex;
+  align-items: center;
+}
+
+#user-profile {
+  margin-right: 6px;
+  width: 25px;
+  height: 20px;
+}
+
+#username {
+  color: #EDAFB8;
+  margin-right: 6px;
+}
+
+#thumbs-up {
+  display: inline-block;
+  margin-left: 6px;
+  width: 40px;
+  height: 40px;
+  margin-top: -13px;
+}
+
+/*CARD SECTION*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: #EFEFEF;
+  z-index: -1;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+a {
+  background: #EFEFEF;
+  width: 90%;
+  color: #8F8F8F;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+#card-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 23%;
+  height: 350px;
+  box-shadow: 2px 2px 1px #666A86;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-size: 12px;
+  border: 1px solid #9DA0B2;
+  border-style: outset;
+}
+
+.card-top {
+  height: 34%;
+  display: block;
+  position: relative;
+  padding: 5%;
+}
+
+.card-top-left {
+  display: inline-block;
+  opacity: 1.0;
+  z-index: 2.0;
+}
+
+.card-top-right {
+  display: inline-block;
+  float: right;
+  opacity: 1.0;
+  z-index: 2.0;
+}
+
+.right-arrow {
+  width: 40%;
+  height: 40%;
+}
+
+.card-bottom {
+  height: 66%;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+}
+
+.card-bottom p,
+.card-bottom a {
+  margin-left: 15px;
+}
+
+.recipient-name {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.date {
+  color: #C7C7C7;
+  font-size: 10px;
+}
+
+.playlist-name {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.views {
+  letter-spacing: 1px;
+}
+
+.view-number,
+.attachment-number {
+  font-size: 30px;
+}
+
+.attachment-number {
+  color: #7a8f71;
+}
+
+/*BACKGROUND PICTURE FOR EACH CARD*/
+
+.card-top::after {
+  content: '';
+  background-image: url('images/pearl-kitty.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#card-2 .card-top::after {
+  background-image: url('images/hoodie-kitty.jpg');
+}
+
+#card-3 .card-top::after {
+  background-image: url('images/leather-kitty.jpg');
+}
+
+#card-4 .card-top::after {
+  background-image: url(http://picture-cdn.wheretoget.it/z2rwhe-l-610x610-home+accessory-cats-flower+crown-romantic-animal+clothing-hair+accessory-easter.jpg);
+}
+
+#card-5 .card-top::after {
+  background-image: url(http://r.ddmcdn.com/w_606/s_f/o_1/cx_0/cy_15/cw_606/ch_404/APL/uploads/2014/06/10-kitten-cuteness-1.jpg);
+}
+
+#card-6 .card-top::after {
+  background-image: url(http://wallpapercave.com/wp/JN86Dx9.jpg);
+}
+
+#card-7 .card-top::after {
+  background-image: url(https://s.yimg.com/ny/api/res/1.2/4OYswMVOhC1jHknC.IVXyg--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/hello_giggles_454/d393905034df6f950232fd408e28a2f5);
+}
+
+#card-8 .card-top::after {
+  background-image: url(http://i.dailymail.co.uk/i/pix/2013/02/21/article-2281982-18257F3A000005DC-349_964x628.jpg);
+}
+
+
+@media screen and (max-width: 820px) {
+  .card {
+    width: 40%;
+  }
+
+  h2 {
+    margin-left: 36px;
+  }
+
+  #header-left {
+    margin-left: 10px;
+  }
+
+  #header-right {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+
+  header {
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #header-left {
+    display: block;
+    position: static;
+    margin: 0;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul {
+    display: flex;
+    margin-left: 5%;
+    /*width: 40%;*/
+  }
+
+  /*#header-left {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    color: #95B8D1;
+    left: 20px;
+  }*/
+
+  /*#header-left {
+    margin-left: 10px;
+  }*/
+
+  span {
+    display: none;
+  }
+
+  /*#header-left {
+    display: block;
+    position: static;
+    margin: 0;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+
+  #header-right {
+    display: block;
+    height: 50px;
+    position: static;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*margin-left: 10%;
+    width: 50%;*/
+  }
+
+  li img {
+    margin-left: 20%
+  }
+
+  h1 {
+    margin: 5px 0 0 5px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  #card-section {
+    justify-content: center;
+  }
+
+  .card {
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 3%;
+    border: 2px solid #9DA0B2;
+  }
+}
