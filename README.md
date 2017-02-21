@@ -5,4 +5,4 @@ Original Comp:
 ![original comp](https://github.com/jennPeavler/jp-comp-challenge-2/blob/master/images/static-comp-challenge-2.jpg)
 
 My Comp:
-![my comp](https://github.com/jennPeavler/jp-comp-challenge-2/blob/master/my-comp.png)
+![my comp](https://github.com/jennPeavler/jp-comp-challenge-2/blob/master/images/my-comp.png)
